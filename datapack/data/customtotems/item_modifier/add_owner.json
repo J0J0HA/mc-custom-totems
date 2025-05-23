@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      [
+        {
+          "selector": "@s"
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "translate": "item.minecraft.totem_of_undying"
+        }
+      ]
+    ],
+    "target": "item_name"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "customtotems:owned": true
+    }
+  }
+]

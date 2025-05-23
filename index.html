@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Per-Player Totems</title>
+
+    <script type="text/javascript" src="zip.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Per-Player Totems</h1>
+    <p>
+        This tool generates a resource pack for Minecraft that allows each player to have their own unique totem of
+        undying.
+        <br>
+        This requires a resource pack to be installed additionally. <a href="customtotems-datapack.zip">Download here</a>
+    </p>
+    <form id="totemForm" action="javascript:void(0);">
+        <label for="users">Players (one per line):</label><br>
+        <textarea id="users" name="users" required></textarea>
+        <br><br>
+        <button type="submit" id="generateButton">Download Resource Pack</button>
+    </form>
+
+    <a href="#" id="downloadLink"></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
